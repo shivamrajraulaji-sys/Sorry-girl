@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Isha ❤️</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:Georgia,serif;
+  background:linear-gradient(140deg,#180d28,#472044,#8d365e);
+  color:#fff;text-align:center;overflow-x:hidden;
+}
+section{
+  min-height:100vh;padding:75px 20px;
+  display:flex;flex-direction:column;
+  justify-content:center;align-items:center;
+  position:relative;
+}
+h1{font-size:clamp(2.4rem,8vw,4.5rem);color:#ffd6e5}
+h2{font-size:2rem;color:#ffc4d8;margin-bottom:20px}
+p{font-size:1.12rem;line-height:1.9;max-width:650px}
+button{
+  border:0;border-radius:30px;padding:14px 27px;
+  background:#ffb6cf;color:#45142d;
+  font-size:16px;font-weight:bold;cursor:pointer;
+  margin:15px;transition:.3s;
+}
+button:hover{transform:scale(1.08);background:#fff}
+.heart{
+ position:fixed;bottom:-30px;z-index:0;
+ animation:float 8s linear infinite;
+ pointer-events:none;
+}
+@keyframes float{
+  to{transform:translateY(-110vh) rotate(360deg);opacity:0}
+}
+.hero{background:radial-gradient(circle,#74345c,#180d28)}
+.glow{animation:glow 2s infinite alternate}
+@keyframes glow{
+ from{text-shadow:0 0 5px pink}
+ to{text-shadow:0 0 30px #ff9bc4}
+}
+.card{
+ background:#ffffff12;border:1px solid #ffffff35;
+ padding:30px;border-radius:25px;
+ max-width:650px;width:100%;margin:15px auto;
+ backdrop-filter:blur(10px);
+ box-shadow:0 10px 40px #0003;
+}
+.hidden{display:none}
+.flower{font-size:65px;animation:bloom 2s infinite alternate}
+@keyframes bloom{to{transform:scale(1.3) rotate(10deg)}}
+.promise{font-size:1.1rem;margin:16px}
+.counter{font-size:4rem;color:#ffb6cf;font-weight:bold}
+footer{padding:30px;color:#ffd6e5}
+#letter{white-space:pre-line}
+</style>
+</head>
+
+<body>
+
+<!-- Floating hearts -->
+<script>
+setInterval(()=>{
+ const h=document.createElement("div");
+ h.className="heart";
+ h.innerHTML=["❤️","💗","💕","🌸","✨"][Math.floor(Math.random()*5)];
+ h.style.left=Math.random()*100+"vw";
+ h.style.fontSize=(15+Math.random()*25)+"px";
+ document.body.appendChild(h);
+ setTimeout(()=>h.remove(),8000);
+},500);
+</script>
+
+<!-- SECTION 1 -->
+<section class="hero">
+ <div style="font-size:65px">💌</div>
+ <h1 class="glow">Hey, Isha...</h1>
+ <p>Someone has something special to tell you.</p>
+ <p style="margin:20px">A little website, a thousand feelings, and one very important girl.</p>
+ <button onclick="document.getElementById('letter-section').scrollIntoView({behavior:'smooth'})">
+ Open Your Surprise 💗
+ </button>
+</section>
+
+<!-- SECTION 2 -->
+<section id="letter-section">
+ <h2>💌 A Letter From My Heart</h2>
+ <div class="card">
+  <h2>Dear Isha,</h2>
+  <p id="letter">
+I know I made a mistake, and I am genuinely sorry.
+
+I never wanted to hurt the person who means so much to me.
+
+I cannot change what happened, but I can accept my mistake, learn from it, and try to become better.
+
+You deserve kindness, respect, happiness and honesty.
+
+I don't expect one sorry to fix everything. I just hope you can see that my apology comes from my heart.
+
+I miss your smile, your laughter and our beautiful little moments.
+
+I am truly sorry, my girl.
+
+With all my love,
+Your favourite human ❤️
+  </p>
+ </div>
+</section>
+
+<!-- SECTION 3 -->
+<section>
+ <h2>🥺 A Thousand Sorrys</h2>
+ <div class="counter" id="count">0</div>
+ <p>Sorrys, because one word sometimes isn't enough to express how much I mean it.</p>
+ <button onclick="addSorry()">Give Isha Another Sorry ❤️</button>
+ <p id="sorryText">Waiting for your little click...</p>
+</section>
+
+<!-- SECTION 4 -->
+<section>
+ <h2>🌷 A Garden Of Promises</h2>
+ <div class="flower">🌸</div>
+ <div class="card">
+  <p class="promise">🌹 I promise to listen before reacting.</p>
+  <p class="promise">💗 I promise to respect your feelings.</p>
+  <p class="promise">🫶 I promise to accept my mistakes.</p>
+  <p class="promise">✨ I promise to show love through actions.</p>
+  <p class="promise">🌙 I promise to keep learning and growing.</p>
+ </div>
+ <p>Beautiful flowers need care. So do beautiful relationships.</p>
+</section>
+
+<!-- SECTION 5 -->
+<section>
+ <h2>📖 Our Little Universe</h2>
+ <div class="card">
+  <h2>Chapter 01 🌸</h2>
+  <p>The day you became someone special.</p>
+ </div>
+ <div class="card">
+  <h2>Chapter 02 ✨</h2>
+  <p>The little smiles, silly talks and unforgettable memories.</p>
+ </div>
+ <div class="card">
+  <h2>Chapter 03 ❤️</h2>
+  <p>Learning that love is not about being perfect, but about understanding and growing together.</p>
+ </div>
+ <div class="card">
+  <h2>Chapter 04 🌈</h2>
+  <p>A new chapter, with more patience, care and beautiful moments ahead.</p>
+ </div>
+</section>
+
+<!-- SECTION 6 -->
+<section>
+ <h2>🌙 One Last Thing...</h2>
+ <div class="card">
+  <p>
+   Isha, you are not just a name on my phone.
+   You are someone whose happiness matters to me.
+
+   I cannot demand your forgiveness.
+   I can only sincerely ask for it.
+
+   Take your time. Your feelings matter.
+  </p>
+  <br>
+  <h1 style="font-size:2.5rem">I'm Sorry, Princess ❤️</h1>
+  <p>Can we make more beautiful memories together?</p>
+  <button onclick="showLove()">A Little Message For You 💗</button>
+  <div id="finalMessage" class="hidden">
+   <h2 style="margin-top:25px">You are special, Isha! 🌷</h2>
+   <p>Whatever happens, I hope your heart always finds happiness. You deserve the most beautiful things in life. ❤️</p>
+  </div>
+ </div>
+</section>
+
+<footer>
+ Made with love, patience and a thousand sorrys.<br>
+ For Isha, always. 💗
+</footer>
+
+<script>
+let count=0;
+function addSorry(){
+ count++;
+ document.getElementById("count").innerText=count;
+ document.getElementById("sorryText").innerText=
+ count===1?"One sorry, straight from my heart ❤️":
+ count+" sorrys... and I genuinely mean every one! 💗";
+}
+function showLove(){
+ document.getElementById("finalMessage").classList.remove("hidden");
+}
+</script>
+
+</body>
+</html>
